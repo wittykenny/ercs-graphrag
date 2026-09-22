@@ -1,0 +1,164 @@
+{
+  "vector_rag": {
+    "inference_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 3.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "temporal_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 2.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "comparison_query": {
+      "hit@5": 0.1111111111111111,
+      "recall@5": 0.07407407407407407,
+      "precision@5": 0.1111111111111111,
+      "mrr": 0.1111111111111111,
+      "evidence_coverage@5": 0.07407407407407407,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.2222222222222222,
+      "evidence_total": 2.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "null_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 1.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    }
+  },
+  "hybrid_rag": {
+    "inference_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 3.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "temporal_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 2.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "comparison_query": {
+      "hit@5": 0.1111111111111111,
+      "recall@5": 0.07407407407407407,
+      "precision@5": 0.1111111111111111,
+      "mrr": 0.1111111111111111,
+      "evidence_coverage@5": 0.07407407407407407,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.2222222222222222,
+      "evidence_total": 2.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "null_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 1.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    }
+  },
+  "hybrid_ucp_ercs_graphrag": {
+    "inference_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 3.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "temporal_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 2.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "comparison_query": {
+      "hit@5": 0.1111111111111111,
+      "recall@5": 0.07407407407407407,
+      "precision@5": 0.1111111111111111,
+      "mrr": 0.1111111111111111,
+      "evidence_coverage@5": 0.07407407407407407,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.2222222222222222,
+      "evidence_total": 2.3333333333333335,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    },
+    "null_query": {
+      "hit@5": 0.0,
+      "recall@5": 0.0,
+      "precision@5": 0.0,
+      "mrr": 0.0,
+      "evidence_coverage@5": 0.0,
+      "all_evidence_hit@5": 0.0,
+      "first_two_evidence_hit@5": 0.0,
+      "evidence_hit_count": 0.0,
+      "evidence_total": 1.0,
+      "answer_accuracy": 0.0,
+      "faithfulness": 1.0
+    }
+  }
+}

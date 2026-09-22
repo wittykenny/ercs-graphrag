@@ -1,0 +1,5 @@
+pyyaml
+scikit-learn
+openpyxl
+sentence-transformers
+torch

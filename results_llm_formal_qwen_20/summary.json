@@ -1,0 +1,41 @@
+{
+  "vector_rag": {
+    "hit@5": 0.05,
+    "recall@5": 0.03333333333333333,
+    "precision@5": 0.05,
+    "mrr": 0.05,
+    "evidence_coverage@5": 0.03333333333333333,
+    "all_evidence_hit@5": 0.0,
+    "first_two_evidence_hit@5": 0.0,
+    "evidence_hit_count": 0.1,
+    "evidence_total": 2.45,
+    "answer_accuracy": 0.0,
+    "faithfulness": 1.0
+  },
+  "hybrid_rag": {
+    "hit@5": 0.05,
+    "recall@5": 0.03333333333333333,
+    "precision@5": 0.05,
+    "mrr": 0.05,
+    "evidence_coverage@5": 0.03333333333333333,
+    "all_evidence_hit@5": 0.0,
+    "first_two_evidence_hit@5": 0.0,
+    "evidence_hit_count": 0.1,
+    "evidence_total": 2.45,
+    "answer_accuracy": 0.0,
+    "faithfulness": 1.0
+  },
+  "hybrid_ucp_ercs_graphrag": {
+    "hit@5": 0.05,
+    "recall@5": 0.03333333333333333,
+    "precision@5": 0.05,
+    "mrr": 0.05,
+    "evidence_coverage@5": 0.03333333333333333,
+    "all_evidence_hit@5": 0.0,
+    "first_two_evidence_hit@5": 0.0,
+    "evidence_hit_count": 0.1,
+    "evidence_total": 2.45,
+    "answer_accuracy": 0.0,
+    "faithfulness": 1.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "auto_entity_surface_hit_rate": 0.82,
+  "auto_relation_known_rate": 0.09,
+  "auto_evidence_nonempty_rate": 1.0,
+  "manual_entity_correct_rate": 0.47,
+  "manual_entity_correct_n": 100,
+  "manual_relation_correct_rate": 0.39,
+  "manual_relation_correct_n": 100,
+  "manual_evidence_consistent_rate": 0.39,
+  "manual_evidence_consistent_n": 100,
+  "manual_instruction": "Fill entity_correct, relation_correct, evidence_consistent with 1/0. Use error_type such as entity_boundary, wrong_relation, unsupported, duplicate, alias, other.",
+  "source_triples": "data\\processed_clean_test_500\\triples.json",
+  "sample_size": 100
+}

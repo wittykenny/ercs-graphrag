@@ -1,0 +1,28 @@
+{
+  "hybrid_rag": {
+    "hit@5": 0.97,
+    "recall@5": 0.7747666666666666,
+    "precision@5": 0.364,
+    "mrr": 0.8939333333333332,
+    "evidence_coverage@5": 0.7747666666666666,
+    "all_evidence_hit@5": 0.572,
+    "first_two_evidence_hit@5": 0.636,
+    "evidence_hit_count": 1.864,
+    "evidence_total": 2.418,
+    "answer_accuracy": 0.212,
+    "faithfulness": 1.0
+  },
+  "cross_encoder_rag": {
+    "hit@5": 0.994,
+    "recall@5": 0.8502666666666666,
+    "precision@5": 0.398,
+    "mrr": 0.9523333333333334,
+    "evidence_coverage@5": 0.8502666666666666,
+    "all_evidence_hit@5": 0.698,
+    "first_two_evidence_hit@5": 0.754,
+    "evidence_hit_count": 2.05,
+    "evidence_total": 2.418,
+    "answer_accuracy": 0.246,
+    "faithfulness": 1.0
+  }
+}

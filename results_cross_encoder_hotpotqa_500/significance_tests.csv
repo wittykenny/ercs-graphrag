@@ -1,0 +1,6 @@
+baseline,method,metric,n,mean_diff,bootstrap_ci_low,bootstrap_ci_high,permutation_p_value,significant_0.05
+hybrid_rag,cross_encoder_rag,evidence_coverage@5,500,0.0755,0.0565,0.09466666666666668,0.0004997501249375312,True
+hybrid_rag,cross_encoder_rag,mrr,500,0.0584,0.03803333333333333,0.07863333333333335,0.0004997501249375312,True
+hybrid_rag,cross_encoder_rag,answer_accuracy,500,0.034,0.018,0.052,0.0004997501249375312,True
+hybrid_rag,cross_encoder_rag,first_two_evidence_hit@5,500,0.118,0.086,0.152,0.0004997501249375312,True
+hybrid_rag,cross_encoder_rag,all_evidence_hit@5,500,0.126,0.09,0.16,0.0004997501249375312,True

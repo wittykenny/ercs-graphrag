@@ -1,0 +1,9 @@
+baseline,method,metric,n,mean_diff,bootstrap_ci_low,bootstrap_ci_high,permutation_p_value,significant_0.05
+vector_rag,ercs_graphrag,evidence_coverage@5,100,0.015,-0.0175,0.04833333333333333,0.39980009995002497,False
+vector_rag,ercs_graphrag,mrr,100,-0.035833333333333335,-0.07400000000000001,0.002666666666666668,0.07546226886556721,False
+vector_rag,ercs_graphrag,answer_accuracy,100,0.02,-0.02,0.06,0.6301849075462269,False
+vector_rag,ercs_graphrag,first_two_evidence_hit@5,100,0.06,0.01,0.12,0.05847076461769116,False
+vector_rag,ucp_ercs_graphrag,evidence_coverage@5,100,0.03,-0.005,0.06833333333333333,0.11394302848575712,False
+vector_rag,ucp_ercs_graphrag,mrr,100,-0.03883333333333333,-0.08616666666666667,0.006833333333333334,0.10844577711144428,False
+vector_rag,ucp_ercs_graphrag,answer_accuracy,100,0.02,-0.02,0.06,0.6231884057971014,False
+vector_rag,ucp_ercs_graphrag,first_two_evidence_hit@5,100,0.07,0.02,0.13,0.043478260869565216,True

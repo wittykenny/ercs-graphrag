@@ -1,0 +1,13 @@
+# Direct runtime dependencies; historical experiment versions were not recorded.
+# See docs/reproducibility.md for the observed maintenance environment.
+networkx
+numpy
+scipy
+pandas
+scikit-learn
+sentence-transformers
+torch
+matplotlib
+PyYAML
+openpyxl
+datasets

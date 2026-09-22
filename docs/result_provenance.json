@@ -1,0 +1,22 @@
+[
+  {
+    "path": "results_clean_test_500/summary.json",
+    "sha256": "296000c4432beb1d1e6fa7e119478fee44ac6dd5cbcdc35abfd0827ab061d11a",
+    "included_in_release": true
+  },
+  {
+    "path": "results_clean_test_500/details.csv",
+    "sha256": "46ae463174909d559921598d43d8620c726f8a28dd1fa1ffaf13734569e3f360",
+    "included_in_release": false
+  },
+  {
+    "path": "results_hotpotqa_500/summary.json",
+    "sha256": "87db7912b6ba1f309eba0a63171c024e2097ba15717f2fda0a6b73bac95ffff4",
+    "included_in_release": true
+  },
+  {
+    "path": "results_hotpotqa_500/details.csv",
+    "sha256": "030d5aaa1bcd4053e2229dc55857b5d8139784d436dd49042f52f5854580674f",
+    "included_in_release": false
+  }
+]

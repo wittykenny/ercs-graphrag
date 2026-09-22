@@ -1,0 +1,35 @@
+{
+  "objective": "evidence_coverage",
+  "objective_metric": "evidence_coverage@5",
+  "max_queries": 50,
+  "max_docs": 300,
+  "split": "dev",
+  "include_evidence_chunks": false,
+  "top_k": 5,
+  "embedding_backend": "sbert",
+  "params": {
+    "alpha": 0.4,
+    "beta": 0.0,
+    "gamma": 0.6000000000000001,
+    "delta": 0.0,
+    "epsilon": 0.05,
+    "adaptive_eta": 0.2,
+    "redundancy_weight": 0.05,
+    "query_entity_lambda": 0.6,
+    "candidate_pool": 80,
+    "path_cutoff": 4
+  },
+  "metrics": {
+    "hit@5": 0.62,
+    "recall@5": 0.31666666666666665,
+    "precision@5": 0.384,
+    "mrr": 0.44366666666666665,
+    "evidence_coverage@5": 0.31666666666666665,
+    "all_evidence_hit@5": 0.06,
+    "first_two_evidence_hit@5": 0.1,
+    "evidence_hit_count": 0.84,
+    "evidence_total": 2.46,
+    "answer_accuracy": 0.12,
+    "faithfulness": 1.0
+  }
+}

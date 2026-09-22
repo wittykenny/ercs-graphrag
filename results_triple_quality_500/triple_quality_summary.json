@@ -1,0 +1,22 @@
+{
+  "triples_path": "data\\processed_hotpotqa_500\\triples.json",
+  "chunks_path": "data\\processed_hotpotqa_500\\chunks.json",
+  "total_triples": 44529,
+  "sample_size": 200,
+  "auto_entity_accuracy": 0.995,
+  "auto_relation_accuracy": 0.245,
+  "auto_evidence_consistency": 0.93,
+  "auto_error_counts": {
+    "too_generic_relation": 151,
+    "ok": 44,
+    "evidence_mismatch": 14,
+    "entity_boundary": 1
+  },
+  "auto_error_ratios": {
+    "entity_boundary": 0.005,
+    "evidence_mismatch": 0.07,
+    "ok": 0.22,
+    "too_generic_relation": 0.755
+  },
+  "manual_labeled_count": 0
+}

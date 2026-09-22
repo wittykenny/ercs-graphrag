@@ -1,0 +1,12 @@
+{
+  "backend": "cross_encoder:BAAI/bge-reranker-base:cpu",
+  "model_name": "BAAI/bge-reranker-base",
+  "sample_size": 500,
+  "candidate_k": 80,
+  "top_k": 5,
+  "precision_at_5": 0.5216000000000015,
+  "evidence_coverage_at_5": 0.4901023809523825,
+  "hit_rate_at_5": 0.992,
+  "avg_query_time_ms": 8926.991075399994,
+  "relative_cost_note": "Includes TF-IDF candidate scoring plus CrossEncoder reranking when available."
+}

@@ -1,0 +1,63 @@
+# Local credentials and identities
+.env
+.env.*
+*.env
+!.env.example
+credentials*
+*credentials*.json
+*.pem
+*.key
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.claude/
+# Runtime and models
+cache/
+.cache/
+logs/
+tmp/
+temp/
+outputs/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.log
+# Third-party data and derived text remain local
+/data/*
+!/data/README.md
+# Generated notebooks duplicate the Python sources
+/notebooks/
+# Private thesis and editing material
+*.docx
+*.pdf
+/aigc*/
+/aigc*.md
+/render_check_rewritten/
+/*docx*.py
+/local_maintenance_backup/
+# Keep only compact, aggregate experiment evidence
+/results*/**
+!/results*/
+!/results*/summary.json
+!/results*/summary_by_question_type.json
+!/results*/significance_tests.csv
+!/results*/significance_tests.json
+!/results*/multi_seed_summary.csv
+!/results*/multi_seed_raw.csv
+!/results*/ablation_results.csv
+!/results*/ablation_results.json
+!/results*/triple_quality_summary*.json
+!/results/best_params.json
+!/results/main_results.csv
+!/results/README.md

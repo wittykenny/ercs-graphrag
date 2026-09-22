@@ -1,0 +1,57 @@
+[
+  {
+    "baseline": "hybrid_rag",
+    "method": "cross_encoder_rag",
+    "metric": "evidence_coverage@5",
+    "n": 500,
+    "mean_diff": 0.0755,
+    "bootstrap_ci_low": 0.0565,
+    "bootstrap_ci_high": 0.09466666666666668,
+    "permutation_p_value": 0.0004997501249375312,
+    "significant_0.05": true
+  },
+  {
+    "baseline": "hybrid_rag",
+    "method": "cross_encoder_rag",
+    "metric": "mrr",
+    "n": 500,
+    "mean_diff": 0.0584,
+    "bootstrap_ci_low": 0.03803333333333333,
+    "bootstrap_ci_high": 0.07863333333333335,
+    "permutation_p_value": 0.0004997501249375312,
+    "significant_0.05": true
+  },
+  {
+    "baseline": "hybrid_rag",
+    "method": "cross_encoder_rag",
+    "metric": "answer_accuracy",
+    "n": 500,
+    "mean_diff": 0.034,
+    "bootstrap_ci_low": 0.018,
+    "bootstrap_ci_high": 0.052,
+    "permutation_p_value": 0.0004997501249375312,
+    "significant_0.05": true
+  },
+  {
+    "baseline": "hybrid_rag",
+    "method": "cross_encoder_rag",
+    "metric": "first_two_evidence_hit@5",
+    "n": 500,
+    "mean_diff": 0.118,
+    "bootstrap_ci_low": 0.086,
+    "bootstrap_ci_high": 0.152,
+    "permutation_p_value": 0.0004997501249375312,
+    "significant_0.05": true
+  },
+  {
+    "baseline": "hybrid_rag",
+    "method": "cross_encoder_rag",
+    "metric": "all_evidence_hit@5",
+    "n": 500,
+    "mean_diff": 0.126,
+    "bootstrap_ci_low": 0.09,
+    "bootstrap_ci_high": 0.16,
+    "permutation_p_value": 0.0004997501249375312,
+    "significant_0.05": true
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "sample_size": 100,
+  "manual_entity_accuracy": 0.47,
+  "manual_relation_accuracy": 0.39,
+  "manual_evidence_consistency": 0.39,
+  "error_type_counts": {
+    "unsupported_relation": 5,
+    "malformed_entity": 2,
+    "invalid_tail": 12,
+    "invalid_entity": 3,
+    "correct": 39,
+    "title_fragment": 7,
+    "invalid_head": 11,
+    "evidence_missing_tail": 2,
+    "malformed_tail": 4,
+    "wrong_relation": 7,
+    "generic_head": 2,
+    "generic_tail": 2,
+    "generic_entity": 3,
+    "split_entity": 1
+  }
+}

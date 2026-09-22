@@ -1,0 +1,93 @@
+{
+  "bm25_rag": {
+    "hit@5": 0.712,
+    "recall@5": 0.41933333333333334,
+    "precision@5": 0.49639999999999995,
+    "mrr": 0.6265,
+    "evidence_coverage@5": 0.41933333333333334,
+    "all_evidence_hit@5": 0.154,
+    "first_two_evidence_hit@5": 0.212,
+    "evidence_hit_count": 1.092,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.186,
+    "faithfulness": 1.0
+  },
+  "hybrid_rag": {
+    "hit@5": 0.7,
+    "recall@5": 0.3858333333333333,
+    "precision@5": 0.49360000000000004,
+    "mrr": 0.6236,
+    "evidence_coverage@5": 0.3858333333333333,
+    "all_evidence_hit@5": 0.12,
+    "first_two_evidence_hit@5": 0.19,
+    "evidence_hit_count": 1.006,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.194,
+    "faithfulness": 1.0
+  },
+  "vector_rag": {
+    "hit@5": 0.618,
+    "recall@5": 0.2976666666666667,
+    "precision@5": 0.4168,
+    "mrr": 0.5064666666666666,
+    "evidence_coverage@5": 0.2976666666666667,
+    "all_evidence_hit@5": 0.05,
+    "first_two_evidence_hit@5": 0.092,
+    "evidence_hit_count": 0.778,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.166,
+    "faithfulness": 1.0
+  },
+  "graph_rag": {
+    "hit@5": 0.586,
+    "recall@5": 0.2785,
+    "precision@5": 0.38,
+    "mrr": 0.46603333333333335,
+    "evidence_coverage@5": 0.2785,
+    "all_evidence_hit@5": 0.046,
+    "first_two_evidence_hit@5": 0.084,
+    "evidence_hit_count": 0.732,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.156,
+    "faithfulness": 1.0
+  },
+  "ercs_graphrag": {
+    "hit@5": 0.614,
+    "recall@5": 0.3028333333333333,
+    "precision@5": 0.386,
+    "mrr": 0.4749333333333333,
+    "evidence_coverage@5": 0.3028333333333333,
+    "all_evidence_hit@5": 0.056,
+    "first_two_evidence_hit@5": 0.096,
+    "evidence_hit_count": 0.792,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.182,
+    "faithfulness": 1.0
+  },
+  "ucp_ercs_graphrag": {
+    "hit@5": 0.618,
+    "recall@5": 0.3113333333333333,
+    "precision@5": 0.3648,
+    "mrr": 0.4620666666666667,
+    "evidence_coverage@5": 0.3113333333333333,
+    "all_evidence_hit@5": 0.062,
+    "first_two_evidence_hit@5": 0.104,
+    "evidence_hit_count": 0.816,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.182,
+    "faithfulness": 1.0
+  },
+  "hybrid_ucp_ercs_graphrag": {
+    "hit@5": 0.696,
+    "recall@5": 0.3823333333333333,
+    "precision@5": 0.4348,
+    "mrr": 0.5839666666666667,
+    "evidence_coverage@5": 0.3823333333333333,
+    "all_evidence_hit@5": 0.12,
+    "first_two_evidence_hit@5": 0.186,
+    "evidence_hit_count": 0.996,
+    "evidence_total": 2.472,
+    "answer_accuracy": 0.186,
+    "faithfulness": 1.0
+  }
+}

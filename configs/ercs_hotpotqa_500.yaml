@@ -1,0 +1,92 @@
+# Main reproducibility config for Project 3.
+# Designed for a 4070 Laptop GPU. Adjust paths only if your directories differ.
+seed: 42
+python: python
+project_root: .
+
+data:
+  raw_dir: data/hotpotqa_raw_500
+  processed_dir: data/processed_hotpotqa_500
+  corpus_path: data/hotpotqa_raw_500/corpus.json
+  questions_path: data/hotpotqa_raw_500/MultiHopRAG.json
+
+results:
+  main_dir: results_hotpotqa_500
+  paper_dir: results_paper_tables
+  ablation_dir: results_ablation_500
+  triple_quality_dir: results_triple_quality_500
+  reranker_dir: results_cross_encoder_hotpotqa_500_new
+
+reproduce:
+  # Keep these commands conservative. They call your existing scripts if present.
+  # If your original script supports more flags, add them here.
+  commands:
+    - name: graph_stats
+      cmd: ["python", "graph_stats.py"]
+      optional: true
+    - name: main_experiment
+      cmd: ["python", "run_experiment.py"]
+      optional: true
+    - name: param_search
+      cmd: ["python", "param_search.py"]
+      optional: true
+    - name: multi_seed
+      cmd: ["python", "multi_seed_experiment.py"]
+      optional: true
+    - name: significance
+      cmd: ["python", "significance_test.py"]
+      optional: true
+    - name: failure_analysis
+      cmd: ["python", "failure_analysis.py"]
+      optional: true
+    - name: case_study
+      cmd: ["python", "case_study.py"]
+      optional: true
+    - name: review_diagnostics
+      cmd: ["python", "review_diagnostics.py"]
+      optional: true
+
+ablation:
+  baseline_result_dirs:
+    - results_hotpotqa_500
+    - results_guarded_test_500
+    - results_clean_test_500
+    - results_cross_encoder_hotpotqa_500
+  output_dir: results_ablation_500
+  # If your details.csv has a method column, these aliases make table names cleaner.
+  method_aliases:
+    vector: Vector-only
+    dense: Vector-only
+    bm25: BM25
+    hybrid: BM25-Vector Hybrid
+    ablation_sim_only: Sim only
+    ablation_sim_er: Sim+ER
+    ablation_sim_er_rw: Sim+ER+RW
+    ablation_sim_er_rw_c: Sim+ER+RW+C
+    ablation_sim_er_rw_c_pcs: Sim+ER+RW+C+PCS
+    ablation_hybrid_only: Hybrid
+    ablation_hybrid_ucp: Hybrid+UCP-ERCS
+    ablation_guarded_hybrid_ucp: Guarded Hybrid+UCP-ERCS
+    safe_hybrid_ucp_ercs_graphrag: Safe Hybrid+UCP-ERCS
+    ercs: Full ERCS
+    ucp_ercs: Full UCP-ERCS
+    guarded: Guarded UCP-ERCS
+    cross_encoder: Cross-Encoder Reranker
+
+triple_quality:
+  triples_path: data/processed_hotpotqa_500/triples.json
+  chunks_path: data/processed_hotpotqa_500/chunks.json
+  sample_size: 200
+  output_dir: results_triple_quality_500
+
+reranker:
+  corpus_path: data/hotpotqa_raw_500/corpus.json
+  questions_path: data/hotpotqa_raw_500/MultiHopRAG.json
+  output_dir: results_cross_encoder_hotpotqa_500_new
+  model_name: BAAI/bge-reranker-base
+  sample_size: 500
+  candidate_k: 80
+  top_k: 5
+  batch_size: 16
+  max_length: 512
+  use_fp16: true

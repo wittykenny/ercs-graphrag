@@ -1,0 +1,90 @@
+[
+  {
+    "baseline": "vector_rag",
+    "method": "ercs_graphrag",
+    "metric": "evidence_coverage@5",
+    "n": 100,
+    "mean_diff": 0.015,
+    "bootstrap_ci_low": -0.0175,
+    "bootstrap_ci_high": 0.04833333333333333,
+    "permutation_p_value": 0.39980009995002497,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ercs_graphrag",
+    "metric": "mrr",
+    "n": 100,
+    "mean_diff": -0.035833333333333335,
+    "bootstrap_ci_low": -0.07400000000000001,
+    "bootstrap_ci_high": 0.002666666666666668,
+    "permutation_p_value": 0.07546226886556721,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ercs_graphrag",
+    "metric": "answer_accuracy",
+    "n": 100,
+    "mean_diff": 0.02,
+    "bootstrap_ci_low": -0.02,
+    "bootstrap_ci_high": 0.06,
+    "permutation_p_value": 0.6301849075462269,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ercs_graphrag",
+    "metric": "first_two_evidence_hit@5",
+    "n": 100,
+    "mean_diff": 0.06,
+    "bootstrap_ci_low": 0.01,
+    "bootstrap_ci_high": 0.12,
+    "permutation_p_value": 0.05847076461769116,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ucp_ercs_graphrag",
+    "metric": "evidence_coverage@5",
+    "n": 100,
+    "mean_diff": 0.03,
+    "bootstrap_ci_low": -0.005,
+    "bootstrap_ci_high": 0.06833333333333333,
+    "permutation_p_value": 0.11394302848575712,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ucp_ercs_graphrag",
+    "metric": "mrr",
+    "n": 100,
+    "mean_diff": -0.03883333333333333,
+    "bootstrap_ci_low": -0.08616666666666667,
+    "bootstrap_ci_high": 0.006833333333333334,
+    "permutation_p_value": 0.10844577711144428,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ucp_ercs_graphrag",
+    "metric": "answer_accuracy",
+    "n": 100,
+    "mean_diff": 0.02,
+    "bootstrap_ci_low": -0.02,
+    "bootstrap_ci_high": 0.06,
+    "permutation_p_value": 0.6231884057971014,
+    "significant_0.05": false
+  },
+  {
+    "baseline": "vector_rag",
+    "method": "ucp_ercs_graphrag",
+    "metric": "first_two_evidence_hit@5",
+    "n": 100,
+    "mean_diff": 0.07,
+    "bootstrap_ci_low": 0.02,
+    "bootstrap_ci_high": 0.13,
+    "permutation_p_value": 0.043478260869565216,
+    "significant_0.05": true
+  }
+]
